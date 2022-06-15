@@ -1,0 +1,16 @@
+db.productos.insert([{
+    "descripcion": "gaseosa",
+    "marca": "coca cola",
+    "cantidad": 50
+ },
+ {
+    "descripcion": "leche",
+    "marca": "serenisima",
+    "cantidad": 12
+ },
+ {
+    "descripcion": "arroz",
+    "marca": "gallo",
+    "cantidad": 40
+ }])
+

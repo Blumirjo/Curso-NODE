@@ -1,0 +1,17 @@
+{
+  "name": "sequelize-connect-mysql",
+  "version": "1.0.0",
+  "description": "Este es un ejemplo sobre la conexion a una base de datos Mysqk, utilizando el ORM(object relational mapping) para node.js basado em promesas.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.20.1"
+  }
+}

@@ -1,0 +1,95 @@
+{
+    "nombre":"Juan",
+    "email": "juan@gmail.com",
+    "oficio": "carpintero",
+    "edad": 34
+}
+
+db.clientes.insert({
+    "nombre":"Juan",
+    "email": "juan@gmail.com",
+    "oficio": "carpintero",
+    "edad": 34
+})
+
+show collections
+
+db.clientes.find().pretty()
+
+
+db.clientes.insert({
+    "nombre":"martina",
+    "email": "marr@gmail.com",
+    "oficio": "falopera",
+    "edad": 40
+}
+)
+
+
+db.clientes.insert({
+    "nombre":"Ermenejilda",
+    "email": "Erme@gmail.com",
+    "oficio": "puta",
+    "edad": 31
+})
+
+
+{
+    "nombre":"Jose",
+    "email": "jose@gmail.com",
+    "oficio": "transa",
+    "edad": 45
+},
+{
+    "nombre":"Carolina",
+    "email": "carolina@gmail.com",
+    "oficio": "abogada",
+    "edad": 29
+},
+{
+    "nombre":"Maria",
+    "email": "maria@gmail.com",
+    "oficio": "kioskera",
+    "edad": 23
+}
+
+
+db.clientes.insert([{
+    "nombre":"Ermenejilda",
+    "email": "Erme@gmail.com",
+    "oficio": "puta",
+    "edad": 31
+},
+{
+    "nombre":"martina",
+    "email": "marr@gmail.com",
+    "oficio": "falopera",
+    "edad": 40
+},
+{
+    "nombre":"Juan",
+    "email": "juan@gmail.com",
+    "oficio": "carpintero",
+    "edad": 34
+},
+{
+    "nombre":"Jose",
+    "email": "jose@gmail.com",
+    "oficio": "transa",
+    "edad": 45
+},
+{
+    "nombre":"Carolina",
+    "email": "carolina@gmail.com",
+    "oficio": "abogada",
+    "edad": 29
+},
+{
+    "nombre":"Maria",
+    "email": "maria@gmail.com",
+    "oficio": "kioskera",
+    "edad": 23
+}])
+
+
+

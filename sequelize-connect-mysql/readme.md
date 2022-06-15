@@ -1,0 +1,1 @@
+Este es un ejemplo sobre la conexion a una base de datos Mysqk, utilizando el ORM(object relational mapping) para node.js basado em promesas.

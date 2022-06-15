@@ -1,0 +1,16 @@
+{
+  "name": "crud-mongobd",
+  "version": "1.0.0",
+  "description": "realizacion de CRUD utilizando mongoose, un ODM(object document mapper), es decir, un mapeador de documentos de objeto..",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.3.8",
+    "nodemon": "^2.0.16"
+  }
+}
